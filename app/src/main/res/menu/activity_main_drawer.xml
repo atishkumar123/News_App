@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/bbcc"
+            android:title="@string/bcc"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_cnn"
+            android:icon="@drawable/cnn"
+            android:title="@string/cnn"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_sky"
+            android:icon="@drawable/skyy"
+            android:title="@string/sky"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:icon="@drawable/foxnews"
+            android:title="@string/fox"
+            android:menuCategory="secondary"
+            />
+
+        <item android:title="@string/upcoming"
+            android:menuCategory="secondary"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_my"
+                    android:icon="@drawable/ayark"
+                    android:title="@string/newyorktimes"
+                    android:menuCategory="secondary"
+                    />
+            </menu>
+
+
+        </item>
+
+
+
+    </group>
+
+
+
+</menu>
